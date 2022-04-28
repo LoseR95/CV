@@ -1,0 +1,56 @@
+/*Area de pruevas*/
+.capa {
+    background-color:red;   
+}
+
+
+
+/*Portada #90e0ef  #252422*/
+.fondo {  
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    height:100%;
+    background-image:url("../sources/perro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo_capa {
+    background-color: black;
+    position: absolute;     
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: .4;  
+}
+
+.resaltado {
+    color: #08db2f;
+    position: relative;
+    z-index:10;
+}
+
+.resaltado main h1 {
+    color:#90e0ef;
+    background-color: beige;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    margin: 5rem;
+    padding:5rem;
+}
+
+#inicio_pagina {
+    z-index: 100;
+}
+
+
+
+
+
+.areaTrabajos {
+    background-color: blue;
+    position: relative;
+    z-index: 10;
+}
